@@ -1,0 +1,126 @@
+.section-header{
+    font-family: 'Montserrat', sans-serif;
+}
+.section-wrapper{
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+}
+.navbar{
+    padding: 20px 0px 20px 0px !important;
+}
+
+.filter-w{
+    padding: 20px;
+    background: #f8f9fa;
+    box-shadow: 1px 1px 6px #e3e3e3;
+}
+.filter{
+    margin-bottom: 30px;
+}
+.filter-title{
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+.ui-page-theme-a .ui-btn , .ui-page-theme-a .ui-btn:hover{
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    color: #222;
+    font-weight: 500;
+}
+.ui-input-text input{
+    min-height: 2.8em;
+    font-size: 13px;
+    padding-left: 12px;
+}
+.ui-btn{
+     padding: 0.3em 1em;
+ }
+.ui-btn-icon-left{
+    padding-left:27px !important;
+}
+.ui-checkbox{
+    display: inline-flex;
+    margin:0;
+}
+.ui-slider-track .ui-btn.ui-slider-handle {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    outline: 0;
+    padding: 0;
+}
+.menu-w{
+    float: right;
+}
+.menu-w ul li{
+    list-style: none;
+    float: left;
+}
+.menu-w ul li a{
+    text-decoration: none;
+    padding-left: 25px;
+    color: #222;
+}
+.product-w{
+    margin-bottom: 30px;
+    transition: all .3s;
+}
+.product-img, .product-img img{
+    width: 40%;
+}
+/* .product-img{
+    border: 1px solid #efefef;
+} */
+.product-title{
+    display: block;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: #222 !important;
+    text-decoration: none !important;
+}
+.ui-btn.ui-checkbox-off:after,  .ui-btn.ui-checkbox-on:after{
+    margin: -9px 2px 0 -9px;
+}
+.product-spot{
+    padding-top: 3px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.hover01 img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
+}
+.product-w:hover img {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.product-stars{
+    margin-top: 10px;
+}
+.product-price{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.star-checked {
+    color: orange;
+}
+.page-link{
+    color:#222 !important;
+    font-size: 13px !important;
+}
+.mb50{
+    margin-bottom: 50px;
+}
